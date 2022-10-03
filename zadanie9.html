@@ -1,0 +1,23 @@
+<html>
+ <body>
+  <div style="color:red;font-size:50px;">
+   <script language="JavaScript">
+     var liczba1=prompt("dzien1=","");
+     var liczba2=prompt("dzien2=","");
+     var liczba3=prompt("godzina1=","");
+     var liczba4=prompt("godzina2=","");
+     var ile_sekund_mak;
+     var D1_mak=parseFloat(liczba1);
+     var D2_mak=parseFloat(liczba2);
+     var G1_mak=parseFloat(liczba3);
+     var G2_mak=parseFloat(liczba4);
+    ile_sekund_mak=(D1_mak-D2_mak)*(G1_mak-G2_mak)*3600;
+    document.write("sekundy="+ile_sekund_mak+" s"+"<br>");
+    document.write("dzien1="+D1_mak+"<br>");
+    document.write("dzien2="+D2_mak+"<br>");
+    document.write("godzina1="+G1_mak+"<br>");
+    document.write("godzina2="+G2_mak+"<br>");
+   </script>
+  </div>
+ </body>
+</html>
