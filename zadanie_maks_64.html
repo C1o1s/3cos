@@ -5,10 +5,13 @@
 <body>
 <div style="font-size:40px;">
 <script language="JavaScript">
-  if(i%2==0)
-document.write("parzysta"+" maksymiuk"+"<br>");
+   var x=prompt("podaj rok x=","");
+        var x_mak=parseFloat(x);
+        document.write("czytana liczba x=" +x_mak+"<br>");
+  if(x%2==0)
+document.write("<p style=size:3; color: red;>"+" parzysta"+"<br>");
   else
-document.write("nieparzysta"+" kacper"+"<br>");
+document.write("<p style=size:5; color: silver;>"+"nieparzysta"+"<br>");
 }
 </script>
 </div>
