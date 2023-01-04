@@ -1,17 +1,26 @@
 <html>
   <body>
       <script language="javaScript">
-        for (var i=1;i<=20;i++)
+        var a=prompt("podaj (wysokosc)a=","");
+        var a_mak=parseFloat(x);
+        var b=prompt("podaj (szerokosz)b=","");
+        var b_mak=parseFloat(x);
+        for (var i=1;i<=b_mak;i++)
         {
          document.write("*");
         }
         document.write("<br>");
-        for ( var i=1;i<=(6-2);i++)
+        for ( var i=1;i<=(a_mak-2);i++)
         {
-          document.write("*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*");
-          document.write("<br>");
+          document.write("*");
+          for ( var j=1; i<=(b_mak-2); i++)
+           {
+            a_mak=a_mak+"&nbsp&nbsp";
+           }
+            document.write("*");
+            document.write("<br>");
         }
-        for (var i=1;i<=20;i++)
+        for (var i=1;i<=b_mak;i++)
         {
          document.write("*");
         }
